@@ -11,7 +11,8 @@
     "db:migrate": "sequelize db:migrate",
     "db:seed": "sequelize db:seed:undo:all && sequelize db:seed:all",
     "jest": "jest",
-    "test": "jest --coverage --watchAll"
+    "test": "jest --coverage",
+    "test:local": "jest --coverage --watchAll"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
