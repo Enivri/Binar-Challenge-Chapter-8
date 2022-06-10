@@ -22,7 +22,9 @@ module.exports = {
     database: `${DB_NAME}_test`,
     host: DB_HOST,
     port: DB_PORT,
-    dialect: "postgres",
+    // dialect: "postgres",
+    storage: "node_modules/test.sqlite",
+    dialect: "sqlite",
     logging: false,
   },
   production: {
