@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node -r dotenv/config bin/www",
+    "build": "react-scripts build",
     "develop": "nodemon -r dotenv/config bin/www",
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",
